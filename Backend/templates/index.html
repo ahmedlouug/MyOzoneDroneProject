@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Ozone depuis ESP</title>
+    <meta http-equiv="refresh" content="5"> <!-- Auto-refresh -->
+    <style>
+        body {
+            font-family: sans-serif;
+            text-align: center;
+            padding-top: 50px;
+            background-color: #f9f9f9;
+        }
+        h1 {
+            font-size: 2.5em;
+            color: #2c3e50;
+        }
+        p {
+            font-size: 1.2em;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <h1>Données du capteur d'ozone</h1>
+    <p><strong>Concentration :</strong> {{ data.ozone_ppb }} ppb</p>
+    <p><strong>Reçu à :</strong> {{ data.timestamp }}</p>
+    <p><strong>Source :</strong> {{ data.source }}</p>
+</body>
+</html>
