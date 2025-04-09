@@ -25,9 +25,9 @@ DFRobot_GNSS_UART gnss(&mySerial, 9600);
 File file;
 
 // === 🌐 Wi-Fi et serveur Flask ===
-const char* ssid = "iPhone de Ahmed ";
-const char* password = "wifikado1";
-const char* server_url = "http://172.20.10.8:8086";
+const char* ssid = "wifi ";
+const char* password = "wificode";
+const char* server_url = "IP ADRESS from the host comupter";
 
 void setup() {
   Serial.begin(115200);
