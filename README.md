@@ -32,3 +32,16 @@ This project is a compact onboard data logger designed to measure and record atm
 | GPS Module    | D4 (TX), D3 (RX)      |
 
 ## 📂 Data Format (CSV)
+
+## 📤 Flask Integration
+
+When Wi-Fi is available, the ESP8266 sends the same payload to a local Flask endpoint via HTTP POST.
+
+## ⚠️ Disclaimer
+
+This project is for **experimental and educational purposes**.  
+The ozone sensor used is **not calibrated for professional air quality assessments**.
+
+## 📄 License
+
+IMT Nord Europe - Feel free to use, modify, and improve this project!
